@@ -8,99 +8,99 @@
   },
   "servers": [
     {
-      "id": "NeoCube-1.20.1",
-      "name": "NeoCube",
-      "description": "",
-      "icon": "https://github.com/NeoCubeS4/NeoLauncher-sources/blob/main/main.png?raw=true",
-      "version": "4.1.17",
-      "address": "86.198.202.53:30000",
+      "id": "Grocube-1.20.1",
+      "name": "Grocube",
+      "description": "Grocube Running Minecraft 1.20.1 (Forge v47.4.13)",
+      "icon": null,
+      "version": "1.0",
+      "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.12",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.13",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7400,
-            "MD5": "c673423fbe022d6e4e8a3f0c7645356c",
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.12/lowcodelanguage-1.20.1-47.3.12.jar"
+            "size": 7394,
+            "MD5": "1802fa5a2d337d6660438e353b3b50cd",
+            "url": "http://example.com/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.13/lowcodelanguage-1.20.1-47.4.13.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.3.12",
+              "id": "1.20.1-47.4.13",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16624,
-                "MD5": "03a2952855c972936b345832f594621f",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/versions/1.20.1-forge-47.3.12/1.20.1-forge-47.3.12.json"
+                "size": 16554,
+                "MD5": "1a3573e11d61bfb2a22ea146bf8b0a60",
+                "url": "http://example.com/repo/versions/1.20.1-forge-47.4.13/1.20.1-forge-47.4.13.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.12",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.13",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 118579,
-                "MD5": "0cb45a85af1cf03c0e827131b629821e",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.12/fmlcore-1.20.1-47.3.12.jar"
+                "size": 118909,
+                "MD5": "dc8fe299b39fe48ecb085b21da31db6c",
+                "url": "http://example.com/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.13/fmlcore-1.20.1-47.4.13.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.12",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.13",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16856,
-                "MD5": "5375d8482539b6201f6950df9e2f7a01",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.12/javafmllanguage-1.20.1-47.3.12.jar"
+                "size": 16850,
+                "MD5": "8d35cf4f3bf9704c64babb6472336ffd",
+                "url": "http://example.com/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.13/javafmllanguage-1.20.1-47.4.13.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.12",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.13",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 5000,
-                "MD5": "7672cf521b5aed45f100877110f5cca6",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.12/mclanguage-1.20.1-47.3.12.jar"
+                "size": 4993,
+                "MD5": "b3fbe1f92e7bb2e249e5a71b87f74a35",
+                "url": "http://example.com/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.13/mclanguage-1.20.1-47.4.13.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.3.12:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.13:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2760843,
-                "MD5": "406f4944b354f354e3a174c987d0fed1",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.12/forge-1.20.1-47.3.12-universal.jar"
+                "size": 2506787,
+                "MD5": "dd06b245ea75208c848680660b0b7c21",
+                "url": "http://example.com/repo/lib/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.3.12:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.13:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4793703,
-                "MD5": "0a7a4f989ebec81b77033afcd1b97028",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.12/forge-1.20.1-47.3.12-client.jar"
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "http://example.com/repo/lib/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-client.jar"
               },
               "subModules": []
             },
@@ -112,7 +112,7 @@
               "artifact": {
                 "size": 18842082,
                 "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+                "url": "http://example.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
               },
               "subModules": []
             },
@@ -124,7 +124,7 @@
               "artifact": {
                 "size": 12592249,
                 "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+                "url": "http://example.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
               },
               "subModules": []
             },
@@ -136,7 +136,7 @@
               "artifact": {
                 "size": 10436626,
                 "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+                "url": "http://example.com/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
               },
               "subModules": []
             },
@@ -147,57 +147,57 @@
               "artifact": {
                 "size": 88749,
                 "MD5": "d9ff48d1c68388270388b803fa42611e",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                "url": "http://example.com/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.7.1",
+              "id": "org.ow2.asm:asm:9.8",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 126093,
-                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "http://example.com/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "id": "org.ow2.asm:asm-commons:9.8",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 73459,
-                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "http://example.com/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "id": "org.ow2.asm:asm-tree:9.8",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51939,
-                "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "http://example.com/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.7.1",
+              "id": "org.ow2.asm:asm-util:9.8",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 94519,
-                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "http://example.com/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "id": "org.ow2.asm:asm-analysis:9.8",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 35126,
-                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "http://example.com/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
               }
             },
             {
@@ -207,7 +207,7 @@
               "artifact": {
                 "size": 77756,
                 "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
@@ -217,7 +217,7 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "http://example.com/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
@@ -227,7 +227,7 @@
               "artifact": {
                 "size": 53985,
                 "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
               }
             },
             {
@@ -237,17 +237,17 @@
               "artifact": {
                 "size": 29831,
                 "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:coremods:5.2.1",
+              "id": "net.minecraftforge:coremods:5.2.4",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 31321,
-                "MD5": "5bbacebd88d19aa6ce9f7563d1aac3f5",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/coremods/5.2.1/coremods-5.2.1.jar"
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "http://example.com/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
               }
             },
             {
@@ -257,7 +257,7 @@
               "artifact": {
                 "size": 130343,
                 "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+                "url": "http://example.com/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
               }
             },
             {
@@ -267,7 +267,7 @@
               "artifact": {
                 "size": 2834,
                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
               }
             },
             {
@@ -277,7 +277,7 @@
               "artifact": {
                 "size": 2572,
                 "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
               }
             },
             {
@@ -287,7 +287,7 @@
               "artifact": {
                 "size": 199834,
                 "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                "url": "http://example.com/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
@@ -297,7 +297,7 @@
               "artifact": {
                 "size": 31816,
                 "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                "url": "http://example.com/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
@@ -307,7 +307,7 @@
               "artifact": {
                 "size": 58077,
                 "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                "url": "http://example.com/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
               }
             },
             {
@@ -317,7 +317,7 @@
               "artifact": {
                 "size": 18281,
                 "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+                "url": "http://example.com/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
               }
             },
             {
@@ -327,7 +327,7 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "http://example.com/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
@@ -337,7 +337,7 @@
               "artifact": {
                 "size": 150765,
                 "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                "url": "http://example.com/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
@@ -347,7 +347,7 @@
               "artifact": {
                 "size": 211712,
                 "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                "url": "http://example.com/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
               }
             },
             {
@@ -357,7 +357,7 @@
               "artifact": {
                 "size": 1089277,
                 "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                "url": "http://example.com/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
@@ -367,7 +367,7 @@
               "artifact": {
                 "size": 2167292,
                 "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+                "url": "http://example.com/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
               }
             },
             {
@@ -377,7 +377,7 @@
               "artifact": {
                 "size": 17374,
                 "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
               }
             },
             {
@@ -387,7 +387,7 @@
               "artifact": {
                 "size": 15895,
                 "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
               }
             },
             {
@@ -397,7 +397,7 @@
               "artifact": {
                 "size": 8284,
                 "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                "url": "http://example.com/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
               }
             },
             {
@@ -407,149 +407,319 @@
               "artifact": {
                 "size": 32195,
                 "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                "url": "http://example.com/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.12",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.13",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 265346,
-                "MD5": "77bab0efbc729763d18aa34fbeb2ba9b",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.12/fmlloader-1.20.1-47.3.12.jar"
+                "size": 269262,
+                "MD5": "96bc3cf7132fe5903457662754c14bec",
+                "url": "http://example.com/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.13/fmlloader-1.20.1-47.4.13.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.12",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.13",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170425,
-                "MD5": "3aeb68d1d5d264bd124e32331237b1a3",
-                "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.12/fmlearlydisplay-1.20.1-47.3.12.jar"
+                "size": 170512,
+                "MD5": "22318c2b6fb4319b59554c8965b0cbc9",
+                "url": "http://example.com/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.13/fmlearlydisplay-1.20.1-47.4.13.jar"
               }
             }
           ]
         },
         {
-          "id": "net.geforcemods:securitycraft:1.9.12@jar",
-          "name": "SecurityCraft",
+          "id": "com.starfish_studios:another_furniture:1.20.1-3.0.4@jar",
+          "name": "Another Furniture",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4553681,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/[1.20.1]%20SecurityCraft%20v1.9.12.jar",
-            "MD5": "c21a5d2bf846039dcce7b05fc21441d5"
+            "size": 2463633,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/another_furniture-forge-1.20.1-3.0.4.jar",
+            "MD5": "cc1fc7aaac4322d79446e3b5243cfe70"
           }
         },
         {
-          "id": "team.creative:ambientsounds:6.1.4@jar",
-          "name": "AmbientSounds",
+          "id": "de.keksuccino:auudio:1.0.3@jar",
+          "name": "Auudio",
           "type": "ForgeMod",
           "artifact": {
-            "size": 83885724,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
-            "MD5": "10709a88a6c11f0c4d6cf9759297a704"
+            "size": 27560,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/auudio_forge_1.0.3_MC_1.19.3.jar",
+            "MD5": "33724200774e08146d7ceeb73c649871"
           }
         },
         {
-          "id": "elocindev.animation_overhaul:animation_overhaul:1.3.1@jar",
-          "name": "Animation Overhaul",
+          "id": "net.blay09.mods:balm:7.3.37@jar",
+          "name": "Balm",
           "type": "ForgeMod",
           "artifact": {
-            "size": 270915,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
-            "MD5": "0e016f6094a766eb5b82c0586343f46f"
+            "size": 590486,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.37-all.jar",
+            "MD5": "e4d3fb7b0d8e9271aca89f7964367b1a"
           }
         },
         {
-          "id": "appeng.core:ae2:15.2.16@jar",
-          "name": "Applied Energistics 2",
+          "id": "com.copycatsplus:copycats:3.0.4+mc.1.20.1-forge@jar",
+          "name": "Create: Copycats+",
           "type": "ForgeMod",
           "artifact": {
-            "size": 9743813,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/appliedenergistics2-forge-15.2.16.jar",
-            "MD5": "99c531b0490f38cc5d0c80414328ca25"
+            "size": 1989232,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/copycats-3.0.4+mc.1.20.1-forge.jar",
+            "MD5": "514e934a83732ed6c5fd9ce28cfbe312"
           }
         },
         {
-          "id": "com.simibubi:create:0.5.1.j@jar",
+          "id": "plus.dragons.createcentralkitchen:create_central_kitchen:1.4.3b@jar",
+          "name": "Create: Central Kitchen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 822499,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar",
+            "MD5": "cf941597532a7837327ee891b36f0596"
+          }
+        },
+        {
+          "id": "com.hlysine:create_connected:1.1.10-mc1.20.1@jar",
+          "name": "Create: Connected",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6567117,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/create_connected-1.1.10-mc1.20.1-all.jar",
+            "MD5": "b119043b5504991e86a5d7d06734f49b"
+          }
+        },
+        {
+          "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.3.3-for-create-6.0.6@jar",
+          "name": "Create Enchantment Industry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 488060,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+            "MD5": "6f5f44bb2db0d2916a8ce3e60dae02cf"
+          }
+        },
+        {
+          "id": "com.pedrorok.hypertube:create_hypertube:0.3.0@jar",
+          "name": "Create Hypertube",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 390634,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/create_hypertube-0.3.0-FORGE.jar",
+            "MD5": "7cab909e9c8de12b8c97518ca0042c1b"
+          }
+        },
+        {
+          "id": "create_ultimate_factory:create_ultimate_factory:2.2.1@jar",
+          "name": "Create: Ultimate Factory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229986,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/create_ultimate_factory-2.2.1-forge-1.20.1.jar",
+            "MD5": "fd131a652d067ab919242d6cacbae11e"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.8@jar",
           "name": "Create",
           "type": "ForgeMod",
           "artifact": {
-            "size": 15583566,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/create-1.20.1-0.5.1.j.jar",
-            "MD5": "db945b2441efa1a136d3f86126a6f813"
+            "size": 19170905,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/create-1.20.1-6.0.8.jar",
+            "MD5": "6ebc5c57638c1678359eac65b924c310"
           }
         },
         {
-          "id": "team.creative:creativecore:2.12.27@jar",
-          "name": "CreativeCore",
+          "id": "com.mrh0:createaddition:1.20.1-1.3.3@jar",
+          "name": "Create Crafts & Additions",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1153866,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.27_mc1.20.1.jar",
-            "MD5": "d8d1ab402048d9d73e9dafdbb51b0183"
+            "size": 1577313,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/createaddition-1.20.1-1.3.3.jar",
+            "MD5": "1c0d2275ead3e4756d77ac5a86f135ab"
           }
         },
         {
-          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
-          "name": "Embeddium",
+          "id": "rbasamoyai.createbigcannons:createbigcannons:5.10.0@jar",
+          "name": "Create Big Cannons",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1320675,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
-            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+            "size": 3981746,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/createbigcannons-5.10.0-mc.1.20.1-forge.jar",
+            "MD5": "cb4b7d85363047e438373103630d1b1b"
           }
         },
         {
-          "id": "de.keksuccino:fancymenu:3.2.3@jar",
+          "id": "com.github.talrey:createdeco:2.0.3-1.20.1-forge@jar",
+          "name": "Create Deco",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3509013,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/createdeco-2.0.3-1.20.1-forge.jar",
+            "MD5": "3e0976b862fd087493c7356f623f5cd7"
+          }
+        },
+        {
+          "id": "com.jesz:createdieselgenerators:1.20.1-1.3.5@jar",
+          "name": "Create Diesel Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3120516,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/createdieselgenerators-1.20.1-1.3.5.jar",
+            "MD5": "f4c8b54702077b65e34a3412ec0b8baa"
+          }
+        },
+        {
+          "id": "de.keksuccino:drippyloadingscreen:3.1.0@jar",
+          "name": "Drippy Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285003,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar",
+            "MD5": "029b16e576071b67f3de0df7215a1062"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.20.1-1.4.8@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3753786,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/DynamicTrees-1.20.1-1.4.8.jar",
+            "MD5": "e2e365af238391673d08379440f861b6"
+          }
+        },
+        {
+          "id": "maxhyper.dtterralith:dtterralith:1.20.1-1.2.6@jar",
+          "name": "Dynamic Trees for Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 514225,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/DynamicTreesTerralith-1.20.1-1.2.6.jar",
+            "MD5": "480281489f2872093839ce7026873ee3"
+          }
+        },
+        {
+          "id": "samebutdifferent.ecologics:ecologics:2.2.2@jar",
+          "name": "Ecologics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1809159,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/ecologics-forge-1.20.1-2.2.2.jar",
+            "MD5": "c01743d2beaa3129af16c335a83c877e"
+          }
+        },
+        {
+          "id": "rbasamoyai.escalated:escalated:1.2.0@jar",
+          "name": "Create: Escalated",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 701806,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/escalated-1.2.0-create.6.0.8-mc.1.20.1-forge.jar",
+            "MD5": "472b355ec59285b8b4a5369403ff6f0b"
+          }
+        },
+        {
+          "id": "ichttt.mods:eternalwinter:1.20.1-1.1@jar",
+          "name": "Eternal Winter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10308,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/eternalwinter-1.20.1-1.1.jar",
+            "MD5": "32bf5769b7b5c620b3534c0d89c01b8b"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure:1.7.16@jar",
+          "name": "Exposure",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1360685,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/exposure-1.20.1-1.7.16-forge.jar",
+            "MD5": "5e0d88ba6f4cfe04c6d8158f91b038db"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.8.1@jar",
           "name": "FancyMenu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2696876,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/fancymenu_forge_3.2.3_MC_1.20.1.jar",
-            "MD5": "ac238a3496ff4d386a148fb06ca6a116"
+            "size": 4472193,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/fancymenu_forge_3.8.1_MC_1.20.1.jar",
+            "MD5": "bf41a4251d431d92b89b6c91f84d5546"
           }
         },
         {
-          "id": "com.progwml6:ironchest:1.20.1-14.4.4@jar",
-          "name": "Iron Chests",
+          "id": "de.keksuccino.fmvideo:fancymenu_video:2.1.2@jar",
+          "name": "FancyMenu: Video Extension",
           "type": "ForgeMod",
           "artifact": {
-            "size": 311290,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/ironchest-1.20.1-14.4.4.jar",
-            "MD5": "078fbc43b289995ca4a8cced59bbf0ef"
+            "size": 105143,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/fancymenu_video-1.20.1-2.1.2.jar",
+            "MD5": "0b423e996dae90a5ec910853439f69e5"
           }
         },
         {
-          "id": "snownee.jade:jade:11.11.1+forge@jar",
-          "name": "Jade",
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
           "type": "ForgeMod",
           "artifact": {
-            "size": 547726,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Jade-1.20.1-forge-11.11.1.jar",
-            "MD5": "fafa657e924a26031c174e7ab1484c8e"
+            "size": 123034,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
           }
         },
         {
-          "id": "mezz.jei:jei:15.20.0.105@jar",
+          "id": "de.keksuccino.fmaudio:fmextension_audio:1.1.1@jar",
+          "name": "FancyMenu Audio Extension",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 78535,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/fm_audio_extension_forge_1.1.3_MC_1.20.1.jar",
+            "MD5": "94544fd3069d7b2fff80ab5e23277e7f"
+          }
+        },
+        {
+          "id": "de.keksuccino:fmsia:1.0.1@jar",
+          "name": "FancyMenu | System Interactions Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 214526,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/fmsia_forge_1.0.1_MC_1.20.1.jar",
+            "MD5": "4f5ae9684d57a3926d91aa968da0abe4"
+          }
+        },
+        {
+          "id": "com.sudolev:interiors:0.5.6@jar",
+          "name": "Create: Interiors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 465540,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/interiors-0.5.6+forge-mc1.20.1-local.jar",
+            "MD5": "20974d4752c8aaec1bd451044728b2a0"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.112@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1379051,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.105.jar",
-            "MD5": "947e4bd94640abf098f05ebbc32d0f43"
+            "size": 1385600,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809"
           }
         },
         {
-          "id": "de.keksuccino:justzoom:2.0.0@jar",
-          "name": "Just Zoom",
+          "id": "snownee.kiwi:kiwi:11.9.2+forge@jar",
+          "name": "Kiwi Library",
           "type": "ForgeMod",
           "artifact": {
-            "size": 196560,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/justzoom_forge_2.0.0_MC_1.20.1.jar",
-            "MD5": "10fd88f5e5a4faf73df0c41bad8374a3"
+            "size": 1661318,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/Kiwi-1.20.1-Forge-11.9.2.jar",
+            "MD5": "65c39f7fdfe43b1e2cebf1ebd7d8d7bd"
           }
         },
         {
@@ -558,58 +728,138 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 625185,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
             "MD5": "d69107c593e361e1b7b96733250bd098"
           }
         },
         {
-          "id": "mcjty.lib:mcjtylib:1.20-8.0.6@jar",
-          "name": "McJtyLib",
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
           "type": "ForgeMod",
           "artifact": {
-            "size": 675157,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/mcjtylib-1.20-8.0.6.jar",
-            "MD5": "318269b38df6cca8bfe7fec0a16cc644"
+            "size": 7442998,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
           }
         },
         {
-          "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
+          "id": "com.codinglitch:lexiconfig:1.4.18-1@jar",
+          "name": "Lexiconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54205,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/lexiconfig-forge-1.4.18-1.jar",
+            "MD5": "67bdb3974d75d540320041720e060edf"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.1.0@jar",
           "name": "Macaw's Bridges",
           "type": "ForgeMod",
           "artifact": {
-            "size": 677705,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/mcw-bridges-3.0.0-mc1.20.1forge.jar",
-            "MD5": "27a5798467fc0799eab2505bb6a8f041"
+            "size": 684392,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-bridges-3.1.0-mc1.20.1forge.jar",
+            "MD5": "6ac3df50a7b28e267fc58735af86627a"
           }
         },
         {
-          "id": "generated.forgemod:mcw:windows-2.3.0-mc1.21.1neoforge@jar",
-          "name": "Mcw",
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.2@jar",
+          "name": "Macaw's Doors",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1250958,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/mcw-windows-2.3.0-mc1.21.1neoforge.jar",
-            "MD5": "c7713f6d44173160d732bb3b120cc081"
+            "size": 1250199,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-doors-1.1.2-mc1.20.1forge.jar",
+            "MD5": "4ece726a373aeba6b6598bf15ee4b390"
           }
         },
         {
-          "id": "mekanism:mekanism:10.4.13@jar",
-          "name": "Mekanism",
+          "id": "com.mcwfurnitures.kikoz:mcwfurnitures:3.4.1@jar",
+          "name": "Macaw's Furniture",
           "type": "ForgeMod",
           "artifact": {
-            "size": 12553531,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Mekanism-1.20.1-10.4.13.69.jar",
-            "MD5": "11bc1e548a0b0990eb77d3a1878c784c"
+            "size": 2174615,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+            "MD5": "cbc4466cb23ec23b8ba800aa022f567a"
           }
         },
         {
-          "id": "mekanism.generators:mekanismgenerators:10.4.13@jar",
-          "name": "Mekanism: Generators",
+          "id": "com.mcwholidays.kikoz:mcwholidays:1.1.2@jar",
+          "name": "Macaw's Holidays",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1054583,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/MekanismGenerators-1.20.1-10.4.13.69.jar",
-            "MD5": "3d34f857d9ecc0813576dddfa5ecfc1c"
+            "size": 1054907,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-holidays-1.1.2-mc1.20.1forge.jar",
+            "MD5": "7505812401ba22572d43689ad540893b"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.1.5@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 547779,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-lights-1.1.5-mc1.20.1forge.jar",
+            "MD5": "4d8aedce71e2963976d710ac1798b82b"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.2.1@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 708634,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+            "MD5": "33f30e1ad2474fe8836e85271799ecb7"
+          }
+        },
+        {
+          "id": "com.mcwpaths.kikoz:mcwpaths:1.1.1@jar",
+          "name": "Macaw's Paths and Pavings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 812573,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+            "MD5": "81897b45ac45c6054121482879c7a882"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.4.2@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320692,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+            "MD5": "04b5e1a31c4b76b9fdbf8e111ef9ae57"
+          }
+        },
+        {
+          "id": "com.mcwpaintings.kikoz:mcwpaintings:1.0.5@jar",
+          "name": "Macaw's Paintings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72181,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-paintings-1.0.5-1.20.1forge.jar",
+            "MD5": "4a12b43279b395b4512d24b07697cd73"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.3.2@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1864023,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-roofs-2.3.2-mc1.20.1forge.jar",
+            "MD5": "320ab9ca3f66d228cbf2ad6728ffa22d"
+          }
+        },
+        {
+          "id": "com.mcwtrpdoors.kikoz:mcwtrpdoors:1.1.5@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 604510,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+            "MD5": "59e11a2be482c75aa13bcfaace597594"
           }
         },
         {
@@ -618,458 +868,218 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 37178,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
             "MD5": "6b528d368f7fcbf737df28f2457cdec6"
           }
         },
         {
-          "id": "net.mehvahdjukaar:moonlight:1.20-2.13.40@jar",
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.16@jar",
           "name": "Moonlight Library",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1209255,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/moonlight-1.20-2.13.40-forge.jar",
-            "MD5": "3292f0a5ec1a6e31a0dc2e8b847edafb"
+            "size": 1333455,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/moonlight-1.20-2.16.16-forge.jar",
+            "MD5": "cc2852f794f2a3bb835c6507d8276dc4"
           }
         },
         {
-          "id": "de.melanx:morevanillaarmor:1.20.1-5.1.2@jar",
-          "name": "MoreVanillaArmor",
+          "id": "com.github.nyuppo:moremobvariants:1.3.0.1@jar",
+          "name": "More Mob Variants",
           "type": "ForgeMod",
           "artifact": {
-            "size": 233271,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/MoreVanillaArmor-1.20.1-5.1.2.jar",
-            "MD5": "b10a851f6c7ac1da546322750d6e31cc"
+            "size": 379988,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/moremobvariants-forge+1.20.1-1.3.0.1.jar",
+            "MD5": "97a434757b963366f85571963cb5cf46"
           }
         },
         {
-          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
-          "name": "Necronomicon",
+          "id": "com.samebutdifferent:morevillagers:5.0.0@jar",
+          "name": "More Villagers",
           "type": "ForgeMod",
           "artifact": {
-            "size": 33251,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/Necronomicon-Forge-1.6.0+1.20.1.jar",
-            "MD5": "a1f1433ea551925436e6b170ac2ff619"
+            "size": 233335,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/morevillagers-forge-1.20.1-5.0.0.jar",
+            "MD5": "092d4871b6ec7ab1570bd69c6e8d0d43"
           }
         },
         {
-          "id": "net.irisshaders.iris:oculus:1.7.0@jar",
+          "id": "com.supermartijn642:movingelevators:1.4.11@jar",
+          "name": "Moving Elevators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 329513,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/movingelevators-1.4.11-forge-mc1.20.1.jar",
+            "MD5": "596c39630a5b29c8411cda5d343218d2"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
           "name": "Oculus",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2831148,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/oculus-mc1.20.1-1.7.0.jar",
-            "MD5": "45b96133bb46cc61dd9778bd4fca741d"
+            "size": 2851119,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
           }
         },
         {
-          "id": "com.alcatrazescapee:primalwinter:5.0.0@jar",
-          "name": "Primal Winter",
+          "id": "com.codinglitch:simpleradio:2.4.6.1@jar",
+          "name": "SimpleRadio",
           "type": "ForgeMod",
           "artifact": {
-            "size": 489443,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/primalwinter-forge-1.20-5.0.0.jar",
-            "MD5": "68c20808eaaa713991587562883d791f"
+            "size": 284128,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/SimpleRadio-forge-1.20.1-2.4.6.1.jar",
+            "MD5": "fdaac552a1ad0d80a251fc1eaadba9e7"
           }
         },
         {
-          "id": "mcjty.rftoolsbase:rftoolsbase:1.20-5.0.5@jar",
-          "name": "RFToolsBase",
+          "id": "com.possible_triangle:sliceanddice:3.6.0@jar",
+          "name": "Create Slice & Dice",
           "type": "ForgeMod",
           "artifact": {
-            "size": 419423,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/rftoolsbase-1.20-5.0.5.jar",
-            "MD5": "99bf22c16bb290b2cc8b8c157a973a96"
+            "size": 588268,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/sliceanddice-forge-3.6.0.jar",
+            "MD5": "d32f1794294f473f0a63296cac72802d"
           }
         },
         {
-          "id": "com.talhanation:smallships:2.0.0-b1.4@jar",
-          "name": "Small Ships",
+          "id": "snownee.snow:snowrealmagic:10.6.5@jar",
+          "name": "Snow! Real Magic!",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1816687,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/smallships-forge-1.20.1-2.0.0-b1.4.jar",
-            "MD5": "c52bf453f18b87f43cae36acf628eb60"
+            "size": 345846,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/SnowRealMagic-1.20.1-Forge-10.6.5.jar",
+            "MD5": "085a7600e2ece1c0df2ed6d5078fef99"
           }
         },
         {
-          "id": "net.mehvahdjukaar:snowyspirit:1.20-3.0.10@jar",
-          "name": "Snowy Spirit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5362591,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/snowyspirit-1.20-3.0.10.jar",
-            "MD5": "8d281f47b68918f177f7f1e5f12bbeae"
-          }
-        },
-        {
-          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.8@jar",
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
           "name": "Sound Physics Remastered",
           "type": "ForgeMod",
           "artifact": {
-            "size": 197076,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.4.8.jar",
-            "MD5": "d4681103e45776840799b25a61997e7b"
+            "size": 206984,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+            "MD5": "d70031b5058fb81d2670a4039440b00f"
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.26@jar",
+          "id": "com.railwayteam:railways:1.6.7+forge-mc1.20.1@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9997801,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+            "MD5": "32a83dba6630165e1415f9e78d4aaf2e"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515362,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "MD5": "6559d43627646f16fbe02de085e98d5c"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-3.1.41@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13650491,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/supplementaries-1.20-3.1.41.jar",
+            "MD5": "b5dfc4f5ced41e7a5e4e2d175c6a6bb3"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:suppsquared:1.20-1.1.28@jar",
+          "name": "Supplementaries Squared",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 923074,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/suppsquared-1.20-1.1.28.jar",
+            "MD5": "b9a8e19b89a9460507417a6f37af0e87"
+          }
+        },
+        {
+          "id": "generated.forgemod:terralith:2.5.4@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3156901,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/Terralith_1.20.x_v2.5.4.jar",
+            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
+          }
+        },
+        {
+          "id": "com.drmangotea:tfmg:1.0.2e@jar",
+          "name": "Create: The Factory Must Grow",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5343817,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/tfmg-1.0.2e.jar",
+            "MD5": "c654bf4aa72c72c1b7f035803f81a80f"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:9.1.46@jar",
+          "name": "Traveler's Backpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1288835,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/travelersbackpack-forge-1.20.1-9.1.46.jar",
+            "MD5": "93bf13238a956976c68ae862ea24c949"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.7@jar",
           "name": "Simple Voice Chat",
           "type": "ForgeMod",
           "artifact": {
-            "size": 7729085,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.26.jar",
-            "MD5": "e8f40809f3ba23a568cf6a51bc4abf5d"
+            "size": 4890616,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.7.jar",
+            "MD5": "bff3b95a134aa4b0efd4773bad755085"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
-          "name": "YUNG's API",
+          "id": "org.watermedia.youtube.loaders:watermedia_youtube_plugin:2.1.1@jar",
+          "name": "WaterMedia YT Plugin",
           "type": "ForgeMod",
           "artifact": {
-            "size": 370524,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
-            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+            "size": 3808537,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/watermedia_youtube_plugin-2.1.1.jar",
+            "MD5": "436cca612ab46c29bf48c2771ecdb5e0"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
-          "name": "YUNG's Better Mineshafts",
+          "id": "org.watermedia.loaders:watermedia:2.1.37@jar",
+          "name": "WaterMedia",
           "type": "ForgeMod",
           "artifact": {
-            "size": 492998,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
-            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
+            "size": 37046674,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/watermedia-2.1.37.jar",
+            "MD5": "4a09ad3ea22ad258802605b8aa929bbd"
           }
         },
         {
-          "id": "background.jpg",
-          "name": "background.jpg",
-          "type": "File",
+          "id": "net.blay09.mods:waystones:14.1.17@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 729806,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/background.jpg",
-            "MD5": "8ec06955bea0cfc47e6a11e1b6f9fb70",
-            "path": "config/fancymenu/assets/background.jpg"
-          }
-        },
-        {
-          "id": "backgroundopa.jpg",
-          "name": "backgroundopa.jpg",
-          "type": "File",
-          "artifact": {
-            "size": 1501876,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/backgroundopa.jpg",
-            "MD5": "d2a44836a7383d157319fcc7b4a1e52c",
-            "path": "config/fancymenu/assets/backgroundopa.jpg"
-          }
-        },
-        {
-          "id": "basic.png",
-          "name": "basic.png",
-          "type": "File",
-          "artifact": {
-            "size": 276,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/basic.png",
-            "MD5": "6d565272e4f8861625683513c437ec4c",
-            "path": "config/fancymenu/assets/basic.png"
-          }
-        },
-        {
-          "id": "hover.ogg",
-          "name": "hover.ogg",
-          "type": "File",
-          "artifact": {
-            "size": 13043,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/hover.ogg",
-            "MD5": "a1e5884e876f262e06e40c02dc2287bb",
-            "path": "config/fancymenu/assets/hover.ogg"
-          }
-        },
-        {
-          "id": "hover.png",
-          "name": "hover.png",
-          "type": "File",
-          "artifact": {
-            "size": 273,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/hover.png",
-            "MD5": "496f8285f303082f17955205249163a0",
-            "path": "config/fancymenu/assets/hover.png"
-          }
-        },
-        {
-          "id": "logo.png",
-          "name": "logo.png",
-          "type": "File",
-          "artifact": {
-            "size": 492009,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/logo.png",
-            "MD5": "4be57777ec299d8b37a292022221ba30",
-            "path": "config/fancymenu/assets/logo.png"
-          }
-        },
-        {
-          "id": "mcdecimationmusic.ogg",
-          "name": "mcdecimationmusic.ogg",
-          "type": "File",
-          "artifact": {
-            "size": 765394,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/mcdecimationmusic.ogg",
-            "MD5": "ab25894535cfb76501571dae950f5bd0",
-            "path": "config/fancymenu/assets/mcdecimationmusic.ogg"
-          }
-        },
-        {
-          "id": "neohomebasic.png",
-          "name": "neohomebasic.png",
-          "type": "File",
-          "artifact": {
-            "size": 396,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/neohomebasic.png",
-            "MD5": "e9a9d6fca8ab4e554241a1ae40ad2f00",
-            "path": "config/fancymenu/assets/neohomebasic.png"
-          }
-        },
-        {
-          "id": "neohomehover.png",
-          "name": "neohomehover.png",
-          "type": "File",
-          "artifact": {
-            "size": 330,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/neohomehover.png",
-            "MD5": "80a20ad92211951e9c3184893839314e",
-            "path": "config/fancymenu/assets/neohomehover.png"
-          }
-        },
-        {
-          "id": "playbasic.png",
-          "name": "playbasic.png",
-          "type": "File",
-          "artifact": {
-            "size": 286,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/playbasic.png",
-            "MD5": "668fde708414cff02c2a83ce8c68fe79",
-            "path": "config/fancymenu/assets/playbasic.png"
-          }
-        },
-        {
-          "id": "playdisable.png",
-          "name": "playdisable.png",
-          "type": "File",
-          "artifact": {
-            "size": 271,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/playdisable.png",
-            "MD5": "b0780f93b5c2271c608cd89cb10d370a",
-            "path": "config/fancymenu/assets/playdisable.png"
-          }
-        },
-        {
-          "id": "playhover.png",
-          "name": "playhover.png",
-          "type": "File",
-          "artifact": {
-            "size": 279,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/playhover.png",
-            "MD5": "2b765c4aab95229f77e04172f62551ce",
-            "path": "config/fancymenu/assets/playhover.png"
-          }
-        },
-        {
-          "id": "select.ogg",
-          "name": "select.ogg",
-          "type": "File",
-          "artifact": {
-            "size": 22772,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/assets/select.ogg",
-            "MD5": "942aa498a35481291a3aeb28a0f688c4",
-            "path": "config/fancymenu/assets/select.ogg"
-          }
-        },
-        {
-          "id": "customizablemenus.txt",
-          "name": "customizablemenus.txt",
-          "type": "File",
-          "artifact": {
-            "size": 76,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "8cd335741f1acd023a5203836fb9b944",
-            "path": "config/fancymenu/customizablemenus.txt"
-          }
-        },
-        {
-          "id": "neocube_modern_ui_v1.txt",
-          "name": "neocube_modern_ui_v1.txt",
-          "type": "File",
-          "artifact": {
-            "size": 34650,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1.txt",
-            "MD5": "0dc097c992cb8924b1c93fd837013c6b",
-            "path": "config/fancymenu/customization/neocube_modern_ui_v1.txt"
-          }
-        },
-        {
-          "id": "neocube_modern_ui_v1_layout.txt",
-          "name": "neocube_modern_ui_v1_layout.txt",
-          "type": "File",
-          "artifact": {
-            "size": 3360,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/customization/neocube_modern_ui_v1_layout.txt",
-            "MD5": "fd533b7816df53f6f491d5c6d1e283ff",
-            "path": "config/fancymenu/customization/neocube_modern_ui_v1_layout.txt"
-          }
-        },
-        {
-          "id": "custom_gui_screens.txt",
-          "name": "custom_gui_screens.txt",
-          "type": "File",
-          "artifact": {
-            "size": 459,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
-            "MD5": "40bf5394a5e78e2c463fee1b9eff0c77",
-            "path": "config/fancymenu/custom_gui_screens.txt"
-          }
-        },
-        {
-          "id": "element_layer_control.lewidget",
-          "name": "element_layer_control.lewidget",
-          "type": "File",
-          "artifact": {
-            "size": 197,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
-            "MD5": "b1d90503818b70321cda4e6f05dc9906",
-            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-          }
-        },
-        {
-          "id": "legacy_checklist.txt",
-          "name": "legacy_checklist.txt",
-          "type": "File",
-          "artifact": {
-            "size": 42,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/legacy_checklist.txt",
-            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
-            "path": "config/fancymenu/legacy_checklist.txt"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1758,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "c88b8fca9d043fe84624c57aeb9319a4",
-            "path": "config/fancymenu/options.txt"
-          }
-        },
-        {
-          "id": "dark.json",
-          "name": "dark.json",
-          "type": "File",
-          "artifact": {
-            "size": 4133,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/ui_themes/dark.json",
-            "MD5": "1fc916f1d20b24c5f0d2d138d19c49a4",
-            "path": "config/fancymenu/ui_themes/dark.json"
-          }
-        },
-        {
-          "id": "light.json",
-          "name": "light.json",
-          "type": "File",
-          "artifact": {
-            "size": 4135,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/ui_themes/light.json",
-            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
-            "path": "config/fancymenu/ui_themes/light.json"
-          }
-        },
-        {
-          "id": "user_variables.db",
-          "name": "user_variables.db",
-          "type": "File",
-          "artifact": {
-            "size": 23,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/fancymenu/user_variables.db",
-            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
-            "path": "config/fancymenu/user_variables.db"
-          }
-        },
-        {
-          "id": "de_de.local",
-          "name": "de_de.local",
-          "type": "File",
-          "artifact": {
-            "size": 369,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/konkrete/locals/de_de.local",
-            "MD5": "3aac3df2519057d2305f894c37771e30",
-            "path": "config/konkrete/locals/de_de.local"
-          }
-        },
-        {
-          "id": "en_us.local",
-          "name": "en_us.local",
-          "type": "File",
-          "artifact": {
-            "size": 426,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/konkrete/locals/en_us.local",
-            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
-            "path": "config/konkrete/locals/en_us.local"
-          }
-        },
-        {
-          "id": "pl_pl.local",
-          "name": "pl_pl.local",
-          "type": "File",
-          "artifact": {
-            "size": 313,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/konkrete/locals/pl_pl.local",
-            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
-            "path": "config/konkrete/locals/pl_pl.local"
-          }
-        },
-        {
-          "id": "pt_br.local",
-          "name": "pt_br.local",
-          "type": "File",
-          "artifact": {
-            "size": 322,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/konkrete/locals/pt_br.local",
-            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
-            "path": "config/konkrete/locals/pt_br.local"
-          }
-        },
-        {
-          "id": "primalwinter.toml",
-          "name": "primalwinter.toml",
-          "type": "File",
-          "artifact": {
-            "size": 2506,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/config/primalwinter.toml",
-            "MD5": "04640d850e93d0bb7a45b33c72dcaa85",
-            "path": "config/primalwinter.toml"
-          }
-        },
-        {
-          "id": "last_world.fmdata",
-          "name": "last_world.fmdata",
-          "type": "File",
-          "artifact": {
-            "size": 84,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/fancymenu_data/last_world.fmdata",
-            "MD5": "93afeb7398ec3062a1746daa7cabbd4a",
-            "path": "fancymenu_data/last_world.fmdata"
-          }
-        },
-        {
-          "id": "NeoCube Modern UI.zip",
-          "name": "NeoCube Modern UI.zip",
-          "type": "File",
-          "artifact": {
-            "size": 15534,
-            "url": "https://raw.githubusercontent.com/NeoCubeS4/NeoLauncher-sources/refs/heads/main/servers/NeoCube-1.20.1/files/resourcepacks/NeoCube%20Modern%20UI.zip",
-            "MD5": "91bee770ae1d276194e1de917885179c",
-            "path": "resourcepacks/NeoCube Modern UI.zip"
+            "size": 518286,
+            "url": "http://example.com/servers/Grocube-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.17.jar",
+            "MD5": "c0991381d238b6e1ba9526132b8a9a7c"
           }
         }
       ]

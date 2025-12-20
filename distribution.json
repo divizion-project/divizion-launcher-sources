@@ -9,9 +9,9 @@
   "servers": [
     {
       "id": "Grocube-1.20.1",
-      "name": "Grocube (Minecraft 1.20.1)",
-      "description": "Grocube Running Minecraft 1.20.1 (Forge v47.4.13)",
-      "icon": null,
+      "name": "Grocube",
+      "description": "Serveur Minecraft événementiel de Grolard, le célébre duo comique RedFly et Garfield.",
+      "icon": "https://raw.githubusercontent.com/divizion-project/divizion-launcher-sources/refs/heads/main/grocube.png",
       "version": "1.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",

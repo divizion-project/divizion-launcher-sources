@@ -1,0 +1,17 @@
+{
+  "$schema": "file:///C:/Users/maxen/Documents/GitHub/Divizion-Launcher-DistComplilator/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Divizion",
+    "description": "Serveur Divizion — en développement / maintenance (Minecraft 26.3, Fabric 0.20.1)",
+    "icon": "",
+    "address": "localhost:25565",
+    "mainServer": false,
+    "autoconnect": false,
+    "status": "maintenance"
+  },
+  "fabric": {
+    "version": "0.20.1"
+  },
+  "untrackedFiles": []
+}
